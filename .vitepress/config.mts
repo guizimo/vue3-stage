@@ -2,8 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vue3-stage/',
   title: "Vue3源码解读",
   description: "细读Vue3源码",
+  head: [['link', { rel: 'icon', href: 'https://vuejs.org/logo.svg' }]],
   themeConfig: {
     // 搜索配置
     search: {
