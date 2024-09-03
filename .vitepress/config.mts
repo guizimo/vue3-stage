@@ -38,7 +38,7 @@ export default defineConfig({
 
     // 社交链接配置
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/guizimo/vue3-satge' }
+      { icon: 'github', link: 'https://github.com/guizimo/vue3-stage' }
     ],
 
     // 页脚配置（可选）
