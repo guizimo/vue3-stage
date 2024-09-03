@@ -1,0 +1,6 @@
+:root {
+    --vp-c-brand-1: #42b883; /* 主题主色1，Vue 3 绿色 */
+    --vp-c-brand-2: #36805b; /* 主题主色2，Vue 3 绿色 */
+    --vp-button-brand-bg: #42b883; /* 按钮背景色 */
+    --vp-button-brand-hover-bg: #36805b; /* 按钮悬停背景颜色 */
+}
