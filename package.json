@@ -1,6 +1,6 @@
 {
   "name": "vue3-stage",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Vue3 Stage",
   "type": "module",
   "main": "index.js",
@@ -13,7 +13,12 @@
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor"
   },
-  "keywords": ["Vue3", "Vue3 Stage", "Stage", "Vitepress"],
+  "keywords": [
+    "Vue3",
+    "Vue3 Stage",
+    "Stage",
+    "Vitepress"
+  ],
   "author": "Guizimo",
   "license": "MIT",
   "devDependencies": {
