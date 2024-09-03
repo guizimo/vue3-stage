@@ -1,4 +1,10 @@
 import {
+  del,
+  isVue2,
+  isVue3,
+  set
+} from "./chunk-VPTCRPTA.js";
+import {
   Fragment,
   TransitionGroup,
   computed,
@@ -34,29 +40,9 @@ import {
   version,
   watch,
   watchEffect
-} from "./chunk-EAKM2Q5U.js";
+} from "./chunk-FKVK2FBX.js";
 
-// node_modules/.pnpm/vitepress@1.3.4_@algolia+client-search@4.24.0_postcss@8.4.44_search-insights@2.17.0/node_modules/vitepress/lib/vue-demi.mjs
-var isVue2 = false;
-var isVue3 = true;
-function set(target, key, val) {
-  if (Array.isArray(target)) {
-    target.length = Math.max(target.length, key);
-    target.splice(key, 1, val);
-    return val;
-  }
-  target[key] = val;
-  return val;
-}
-function del(target, key) {
-  if (Array.isArray(target)) {
-    target.splice(key, 1);
-    return;
-  }
-  delete target[key];
-}
-
-// node_modules/.pnpm/@vueuse+shared@11.0.3_vue@3.4.38/node_modules/@vueuse/shared/index.mjs
+// node_modules/.pnpm/@vueuse+shared@11.0.3_vue@3.4.38_typescript@5.5.4_/node_modules/@vueuse/shared/index.mjs
 function computedEager(fn, options) {
   var _a;
   const result = shallowRef();
@@ -1559,7 +1545,7 @@ function whenever(source, cb, options) {
   return stop;
 }
 
-// node_modules/.pnpm/@vueuse+core@11.0.3_vue@3.4.38/node_modules/@vueuse/core/index.mjs
+// node_modules/.pnpm/@vueuse+core@11.0.3_vue@3.4.38_typescript@5.5.4_/node_modules/@vueuse/core/index.mjs
 function computedAsync(evaluationCallback, initialState, optionsOrRef) {
   let options;
   if (isRef(optionsOrRef)) {
@@ -9253,13 +9239,4 @@ export {
   useWindowScroll,
   useWindowSize
 };
-/*! Bundled license information:
-
-vitepress/lib/vue-demi.mjs:
-  (**
-   * vue-demi v0.14.7
-   * Copyright (c) 2020-present, Anthony Fu
-   * @license MIT
-   *)
-*/
-//# sourceMappingURL=chunk-PMJGIB4L.js.map
+//# sourceMappingURL=chunk-TXRDL4HI.js.map
