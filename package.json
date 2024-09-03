@@ -1,7 +1,7 @@
 {
   "name": "vue3-stage",
   "version": "1.1.0",
-  "description": "",
+  "description": "Vue3 Stage",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Vue3", "Vue3 Stage", "Stage", "Vitepress"],
+  "author": "Guizimo",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
