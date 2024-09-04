@@ -1,6 +1,6 @@
 {
   "name": "vue3-stage",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Vue3 Stage",
   "type": "module",
   "main": "index.js",
