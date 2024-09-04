@@ -28,12 +28,9 @@ export default defineConfig({
         ]
       },
       {
-        text: '源码解读',
+        text: '响应式系统',
         items: [
-          { text: '响应式系统', link: '/reactivity' },
-          { text: '虚拟 DOM', link: '/vdom' },
-          { text: '组件系统', link: '/components' },
-          { text: '编译器', link: '/compiler' }
+          { text: 'reactive', link: '/reactivity/reactive' },
         ]
       }
     ],
